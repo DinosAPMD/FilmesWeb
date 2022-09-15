@@ -10,3 +10,7 @@ Mayara Mafioletti
 
 ### Github Pages:  
 https://dinosapmd.github.io/FilmesWeb/
+#### Página detalhes:
+https://dinosapmd.github.io/FilmesWeb/detalhes.html
+#### Página sobre:
+https://dinosapmd.github.io/FilmesWeb/sobre.html
