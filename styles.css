@@ -146,6 +146,7 @@ h2{
 }
 .card-index .estrela{
     color: gold;
+    font-size: 1.8rem !important;
 }
 .card{
     display: flex;
@@ -244,6 +245,17 @@ h2{
     position: relative;
     right: 3rem;
     padding-left: 4rem;
+}
+
+.material-icons{
+    color: var(--cor-primaria);
+    padding-top: .4rem;
+    font-size: 3rem !important;
+}
+.botao .material-icons{
+    color: var(--cor-texto);
+    padding-right: .5rem;
+    font-size: 1.5rem !important;
 }
 
 
