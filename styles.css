@@ -137,16 +137,18 @@ h2{
 .card-index p{
     margin: .3rem 0;
     color: var(--cor-texto);
+    text-align: center;
 }
 .card-index .nota{
     display: flex;
     align-items: center;
     color: var(--cor-texto);
     justify-content: center;
+    align-items: flex-end;
 }
 .card-index .estrela{
     color: gold;
-    font-size: 1.8rem !important;
+    font-size: 1.3rem !important;
 }
 .card{
     display: flex;
@@ -156,7 +158,8 @@ h2{
     height: 12em;
     border-radius: 6px;
     padding-bottom: 5px;
-    margin: .8rem;
+    margin-left: .8rem;
+    margin-top: 4rem;
     position: relative;
 }
 
@@ -184,7 +187,6 @@ h2{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 40px;
 
 }
 .filmes img{
@@ -199,7 +201,7 @@ h2{
     background-color: var(--cor-primaria);
     padding: 5px 20px 5px 15px;
     border-radius: 5px;
-    margin: 0 0.7rem;
+    margin: 0.5rem 0.7rem;
     transition: box-shadow 0.5s ease-in-out;
 }
 .botao-index:hover{
@@ -256,6 +258,10 @@ h2{
     color: var(--cor-texto);
     padding-right: .5rem;
     font-size: 1.5rem !important;
+    vertical-align: sub;
+}
+.tudo{
+    display: -webkit-inline-flex;
 }
 
 
